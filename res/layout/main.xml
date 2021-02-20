@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:myapp="http://schemas.android.com/apk/res/com.reptilesoft.plm"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="15dip"
+    >
+    <TextView
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content"
+    	android:layout_gravity="center_horizontal"
+    	android:textColor="#FFFF00"
+    	android:textStyle="bold"
+    	android:text="@string/app_name">
+    </TextView>
+	<Button 
+		android:id="@+id/btn_on"
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content"
+    	android:text="Keyguard on">
+    </Button>
+    <Button 
+		android:id="@+id/btn_off"
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content"
+    	android:text="Keyguard off">
+    </Button>
+    <TextView
+    	android:id="@+id/text_copyright"
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content"
+    	android:text="Click on our logo view our other apps.">
+    </TextView>
+    
+    <com.admob.android.ads.AdView
+    	android:id="@+id/ad" 
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	myapp:backgroundColor="#000000" 
+    	myapp:primaryTextColor="#FFFFFF" 
+    	myapp:secondaryTextColor="#CCCCCC" />
+    	
+    <ImageButton
+    	android:id="@+id/btn_site"
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content"
+    	android:layout_gravity="center_horizontal"
+    	android:src="@drawable/rslogo">
+    </ImageButton>
+	<TextView
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content"
+    	android:layout_gravity="right"
+    	android:text="2010, reptilesoft.com">
+    </TextView>
+</LinearLayout>
